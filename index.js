@@ -13,17 +13,18 @@ function handleClick(e) {
 //let hours= ' '+ ':'+ ' ';
 //let nb = Number(hours);
 const greets = ["Good Morning","Good Afternoon","Good Evening"];
-function greet(string){
-  let hour = parseInt(string,10)
+function greet(hours){
+  let hour = parseInt(hours,10)
   if(hours < 12){
   return greets[0];}
   else 
-  if(hours > 12 && hours<='17:00'){
+  if(hours >= 12 && hours<=17){
   return greets[1];}
   else {
   return greets[2];}
 }
 /* Write your implementation of displayMessage() */
+
  function displayMessage(message){
    document.getElementById('greeting').innerText =message;
    
