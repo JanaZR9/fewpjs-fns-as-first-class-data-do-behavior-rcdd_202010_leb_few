@@ -20,7 +20,7 @@ function greet(hours){
   else 
   if(hours >= 12 && hours<=17){
   return greets[1];}
-  else {
+  else if()
   return greets[2];}
 }
 /* Write your implementation of displayMessage() */
