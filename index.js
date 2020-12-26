@@ -10,8 +10,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementationof greet() */
-let hours= ' '+ ':'+ ' ';
-let nb = Number(hours);
+//let hours= ' '+ ':'+ ' ';
+//let nb = Number(hours);
 const greets = ["Good Morning","Good Afternoon","Good Evening"];
 function greet(hours){
   if(hours <= '12:00'){
@@ -24,8 +24,7 @@ function greet(hours){
 }
 /* Write your implementation of displayMessage() */
  function displayMessage(message){
-   let msg= 'TEST';
-   document.getElementById('greeting').innerText =msg;
+   document.getElementById('greeting').innerText =message;
    
    
  }
