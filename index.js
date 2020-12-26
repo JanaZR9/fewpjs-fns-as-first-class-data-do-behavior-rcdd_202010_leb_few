@@ -15,13 +15,13 @@ function handleClick(e) {
 const greets = ["Good Morning","Good Afternoon","Good Evening"];
 function greet(hours){
   let hour = parseInt(hours,10)
-  if(hours < 12){
+  if(hour < 12){
   return greets[0];}
   else 
-  if(hours >= 12 && hours<=17){
+  if(hour >= 12 && hour<=17){
   return greets[1];}
-  else if()
-  return greets[2];}
+  else if(hour>17)
+  return greets[2];
 }
 /* Write your implementation of displayMessage() */
 
