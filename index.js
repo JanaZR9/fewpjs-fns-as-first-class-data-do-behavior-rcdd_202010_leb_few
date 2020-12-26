@@ -14,6 +14,7 @@ function handleClick(e) {
 //let nb = Number(hours);
 const greets = ["Good Morning","Good Afternoon","Good Evening"];
 function greet(hours){
+  let hour = parseInt(hours,10)
   if(hours <= '12:00'){
   return greets[0];}
   else 
