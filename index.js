@@ -13,8 +13,8 @@ function handleClick(e) {
 //let hours= ' '+ ':'+ ' ';
 //let nb = Number(hours);
 const greets = ["Good Morning","Good Afternoon","Good Evening"];
-function greet(hours){
-  let hour = parseInt(hours,10)
+function greet(string){
+  let hour = parseInt(string,10)
   if(hours < 12){
   return greets[0];}
   else 
